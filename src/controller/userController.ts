@@ -46,13 +46,12 @@ const loginUser = asyncHandler(async (req: Request, res: Response) => {
   //compare both passwords
   if (user && (await bcrypt.compare(password, user.password))) {
     const accessToken = jwt.sign({
-        user: {
           username: user.username,
           email: user.email, 
           id: user.id,
-        },
-      }, process.env.ACCESS_TOKEN_SECRET as string,
-      { expiresIn: "3m" }
+      },
+       process.env.ACCESS_TOKEN_SECRET as string,
+      { expiresIn:"10m" }
     );
     res.status(200).json({ accessToken });
   } else {

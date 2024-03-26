@@ -9,7 +9,7 @@ interface DecodedUser {
     id: string;
 }
 
-// Extend the Request interface to include the user property
+// extend to include the user property
 declare global {
     namespace Express {
         interface Request {
@@ -24,23 +24,49 @@ const validateToken = asyncHandler(async (req: Request, res: Response, next: Nex
     if (typeof authHeader === "string") {
         if (authHeader.startsWith("Bearer")) {
             token = authHeader.split(" ")[1];
-            // verify token
+            // verify token 
             jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string, (err, decoded) => {
                 if (err) {
                     res.status(401);
                     throw new Error("Unauthorized User");
                 }
-                // Cast decoded as DecodedUser
                 req.user = decoded as DecodedUser;
+                console.log("Decoded User:", req.user); // Log decoded user object
                 next();              
             });
 
             if (!token) {
                 res.status(401);
-                throw new Error("token is missing")
+                throw new Error("token is missing or user not authorized")
             }
         }
     }
 });
 
+
 export default validateToken;
+
+
+// const validateToken = asyncHandler(async (req: Request, res: Response, next: NextFunction) => {
+//     const authHeader = req.headers.authorization || req.headers.Authorization;
+//     if (!authHeader || typeof authHeader !== "string" || !authHeader.startsWith("Bearer")) {
+//         res.status(401).json({ message: "Unauthorized: Token missing or invalid" });
+//         return;
+//     }
+
+//     const token = authHeader.split(" ")[1];
+//     if (!token) {
+//         res.status(401).json({ message: "Unauthorized: Token missing or invalid" });
+//         return;
+//     }
+
+//     try {
+//         const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET as string) as DecodedUser;
+//         req.user = decoded;
+//         next();
+//     } catch (error) {
+//         res.status(401).json({ message: "Unauthorized: Invalid token" });
+//     }
+// });
+
+// export default validateToken;

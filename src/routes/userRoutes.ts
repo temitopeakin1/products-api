@@ -1,6 +1,6 @@
 import validateToken from "../middleware/validateTokenHandler";
 import { registerUser, loginUser, currentUser } from "../controller/userController";
-import express, { Request, Response, Router } from "express";
+import express, {Router } from "express";
 
 const router: Router = express.Router();
 
