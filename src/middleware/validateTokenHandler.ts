@@ -31,7 +31,7 @@ const validateToken = asyncHandler(async (req: Request, res: Response, next: Nex
                     throw new Error("Unauthorized User");
                 }
                 req.user = decoded as DecodedUser;
-                console.log("Decoded User:", req.user); // Log decoded user object
+                console.log("Decoded User:", req.user); 
                 next();              
             });
 
