@@ -34,7 +34,7 @@ const createProduct = asyncHandler(async (req: Request, res: Response) => {
     name,
     description,
     price,
-    category,
+    category,  
     manufacturer,
     user_id: req.user?.id,
   });
@@ -46,7 +46,7 @@ const createProduct = asyncHandler(async (req: Request, res: Response) => {
 });
 
 // update a particular product
-const updateProduct = asyncHandler(async (req, res) => {
+const updateProduct = asyncHandler(async (req: Request, res: Response) => {
   const product = await Product.findById(req.params.id);
   if (!product) {
     res.status(404);
