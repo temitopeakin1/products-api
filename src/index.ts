@@ -10,7 +10,7 @@ dotenv.config();
 
 connectDb();
 export const app: Application = express();
-const port: number = parseInt(process.env.PORT || "3000");
+const port: number = parseInt(process.env.PORT || "5000");
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Server is fine and ready boom");
@@ -26,7 +26,7 @@ const router: Router = express.Router();
 app.use("/api/products", productRoutes);
 app.use("/api/users", userRoutes); 
 
-// server to listen to the specific port (3000)
+// server to listen to the specific port (5000)
 app.listen(port, () => {
   console.log(`server running on port ${port}`);
 });
