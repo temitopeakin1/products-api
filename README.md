@@ -1,15 +1,17 @@
 <h1>Product Store API</h1>
 
+## Table of Contents
+
+- [Description](#description)
+- [Setup](#setup)
+- [Technologies](#technologies)
+- [Usage](#usage)
+- [Contributions](#contributions)
+---
+
 <h2>Table of Contents</h2>
 
-<ul>
-  <li><a href="https://github.com/readme.md" target="#">Description</a></li>
-  <li><a href="https://github.com/readme.md" target="#">Installation</a></li>
-  <li><a href="https://github.com/readme.md" target="#">Technologies</a></li>
-  <li><a href="https://github.com/readme.md" target="#">Usage</a></li>
-  <li><a href="https://github.com/readme.md" target="#">Integrations</a></li>
-  <li><a href="https://github.com/readme.md" target="#">Contributions</a></li>
-</ul>
+
 
 <h2>Description</h2>
 This is a Product Store API that allows a User to Register, Log in and access Products, create products, update and get products
