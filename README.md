@@ -30,6 +30,7 @@ Make sure the following is installed
 
 Once Repo is cloned and the required software installed, Navigate to the root of the project and run the following command
 
+```html
 <div id="copyTarget">
     <!-- Your code here -->
 </div>
