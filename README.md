@@ -39,9 +39,8 @@ These will build the docker image and run the API on your local machine.
 To access the API, navigate to http://localhost:3000/ in your browser.
 
 <h2>Usage</h2>
-To use the API, all the endpoints are available on the <a href="https://documenter.getpostman.com/view/14657312/2sA35G2M8u>API Documentation Page</a> <br>
+To use the API, all the endpoints are available on the <a href="https://documenter.getpostman.com/view/14657312/2sA35G2M8u target="_blank">API Documentation Page</a> <br>
 The API documentation provides a list of all the endpoints available and the required parameters for each endpoint.
-
 
 <h2>Contributing</h2>
 To contribute to the project, fork the repository and create a pull request. Make sure to provide a detailed description of the changes you made and the reason for the changes. All contributions are welcome. Frontend developers who have built online products applications are encouraged to use the API and provide feedback on how it can be improved. 
