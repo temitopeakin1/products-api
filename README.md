@@ -6,7 +6,7 @@
 - [Setup](#setup)
 - [Technologies](#technologies)
 - [Usage](#usage)
-- [Contributions](#contributions)
+- [Contributing](#contributing)
 ---
 
 <h2>Description</h2>
