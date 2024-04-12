@@ -11,6 +11,13 @@
   <li><a href="https://github.com/tableofcontent" target="#">Contributions</a></li>
 </ul>
 
+<h2>Description</h2>
+This is a Product Store API that allows a User to Register, Log in and access Products, create products, update and get products
+
+<h2>Installation</h2>
+To install the API, clone the repo and run the command
+<Link></Link>
+
 
 
 
