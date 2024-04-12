@@ -16,9 +16,18 @@ This is a Product Store API that allows a User to Register, Log in and access Pr
 
 <h2>Installation</h2>
 To install the API, clone the repo and run the following command
-```javascript
 https://github.com/temitopeakin1/products-api.git
-```
+
+<Technologies>
+Make sure the following is installed
+<li>NodeJs</li>
+<li>TypeScript</li>
+<li>Bcrypt</li>
+<li>JWT</li>
+<li>Mongoose</li>
+<li>Docker</li>
+
+Once Repo is cloned and the required software installed, Navigate to the root of the project and run the following command
 
 
 
