@@ -14,9 +14,10 @@
 <h2>Description</h2>
 This is a Product Store API that allows a User to Register, Log in and access Products, create products, update and get products
 
-<h2>Installation</h2>
-To install the API, clone the repo and run the following command
-https://github.com/temitopeakin1/products-api.git
+## Installation
+1. Clone the repository...
+2. Install dependencies...
+3. Run the setup script...
 
 <Technologies>
 Make sure the following is installed
