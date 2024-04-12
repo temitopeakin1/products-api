@@ -9,19 +9,15 @@
 - [Contributions](#contributions)
 ---
 
-<h2>Table of Contents</h2>
-
-
-
 <h2>Description</h2>
 This is a Product Store API that allows a User to Register, Log in and access Products, create products, update and get products
 
-## Installation
+## Setup
 1. Clone the repository...
 2. Install dependencies...
 3. Run the setup script...
 
-<Technologies>
+## Technologies
 Make sure the following is installed
 <li>NodeJs</li>
 <li>TypeScript</li>
