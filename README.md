@@ -16,7 +16,9 @@ This is a Product Store API that allows a User to Register, Log in and access Pr
 
 <h2>Installation</h2>
 To install the API, clone the repo and run the following command
-[Procust-api](https://github.com/temitopeakin1/products-api.git)
+```javascript
+https://github.com/temitopeakin1/products-api.git
+```
 
 
 
