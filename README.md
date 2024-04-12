@@ -30,8 +30,6 @@ Make sure the following is installed
 
 Once Repo is cloned and the required software installed, Navigate to the root of the project and run the following command
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.8/clipboard.min.js"></script>
-```html
 <div id="copyTarget">
     <!-- Your code here -->
 </div>
