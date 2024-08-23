@@ -2,7 +2,7 @@
   "name": "products-api",
   "version": "1.0.0",
   "description": "A simple RESTful API to create and manage products in a store ",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest",
     "start": "tsc && nodemon dist/index.js",
